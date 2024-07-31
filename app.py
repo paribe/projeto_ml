@@ -18,7 +18,7 @@ st.title("Prevendo valor de uma pizza")
 
 st.divider()
 
-diametro = st.number_input("Digite o tamanho do diametro da pizza: ")
+diametro = st.number_input("Digite o tamanho do diametro da pizza em cm: ")
 
 if diametro:
     preco_previsto = modelo.predict([[diametro]])[0][0]
