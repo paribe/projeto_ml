@@ -26,7 +26,7 @@ if diametro_input:
         diametro = float(diametro_input)
         preco_previsto = modelo.predict([[diametro]])[0][0]
         st.write(f"O valor da pizza do diâmetro de {diametro:.2f} cm é de R$ {preco_previsto:.2f}")
-        st.balloons()
+        #st.balloons()
     except ValueError:
         st.error("Por favor, insira um valor numérico válido para o diâmetro.")
 else:
