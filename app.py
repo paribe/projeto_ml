@@ -19,7 +19,7 @@ st.title("Prevendo valor de uma pizza")
 #st.divider()
 # Usar st.text_input para permitir entrada nula
 #diametro_input = st.text_input("Digite o tamanho do diâmetro da pizza em cm:")
-diametro_input = st.number_input("Digite o tamanho do diâmetro da pizza em cm:", min_value=0.0, max_value=100.0, value=0.0, step=0.1)
+diametro_input = st.number_input("Digite o tamanho do diâmetro da pizza em cm:", min_value=0.0, max_value=100.0, value=10.0, step=0.1)
 #  , min_value=0.0, max_value=100.0, value=30.0, step=0.1
 if diametro_input:
     try:
